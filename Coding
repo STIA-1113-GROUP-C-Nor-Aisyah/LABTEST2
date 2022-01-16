@@ -1,0 +1,28 @@
+package labTest2;
+
+import java.util.Scanner;
+
+public class CheckOddEven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("How many number you want to check: ");
+		int number = sc.nextInt();
+		
+		for (int i = 0; i < number; i++) {
+			System.out.println("Enter the number: ");
+			int n = sc.nextInt();
+		
+			if (n % 2 == 0)
+				System.out.println("Even Number");
+			else
+				System.out.println("Odd Number");
+		}
+		System.out.println("\nBye!");
+
+
+	}
+
+}
